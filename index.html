@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting to Epic Games Launcher...</title>
+    <script type="text/javascript">
+        function redirectToLauncher() {
+            var params = new URLSearchParams(window.location.search);
+            var slug = params.get('slug');
+            if (slug) {
+                var launcherUrl = 'com.epicgames.launcher://store/product/' + slug;
+                window.location.href = launcherUrl;
+            } else {
+                document.getElementById('message').innerText = 'Invalid request: No slug provided';
+            }
+        }
+    </script>
+</head>
+<body onload="redirectToLauncher()">
+    <p id="message">Redirecting to Epic Games Launcher...</p>
+</body>
+</html>
