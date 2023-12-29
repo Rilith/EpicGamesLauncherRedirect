@@ -7,7 +7,7 @@
             var params = new URLSearchParams(window.location.search);
             var slug = params.get('slug');
             if (slug) {
-                var launcherUrl = 'com.epicgames.launcher://store/product/' + slug;
+                var launcherUrl = 'com.epicgames.launcher://ue/marketplace/product/' + slug;
                 window.location.href = launcherUrl;
             } else {
                 document.getElementById('message').innerText = 'Invalid request: No slug provided';
