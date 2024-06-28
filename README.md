@@ -1,5 +1,5 @@
 
-# Unreal Engine Marketplace to Epic Games Launcher Redirect
+# UEMarketplace To Launcher
 
 This project provides a simple HTML page hosted on GitHub Pages that redirects users to the Epic Games Launcher, specifically to a product page on the Unreal Engine Marketplace, based on a given slug parameter.
 
@@ -16,7 +16,7 @@ To use this tool, simply append the `slug` parameter to the URL hosted on GitHub
 To redirect to a specific product on the Unreal Engine Marketplace, use the following URL format:
 
 ```
-https://rilith.github.io/EpicGamesLauncherRedirect/?slug=your-product-slug
+https://rilith.github.io/UEMarketplaceToLauncher/?slug=your-product-slug
 ```
 
 Replace `your-product-slug` with the desired product's slug.
@@ -26,7 +26,7 @@ Replace `your-product-slug` with the desired product's slug.
 If the slug for a product is `content-examples`, the URL would be:
 
 ```
-https://rilith.github.io/EpicGamesLauncherRedirect/?slug=content-examples
+https://rilith.github.io/UEMarketplaceToLauncher/?slug=content-examples
 ```
 
 When users visit this URL, they will be redirected to the specified product page in the Epic Games Launcher.
