@@ -21,12 +21,12 @@ https://rilith.github.io/EpicGamesLauncherRedirect/?slug=your-product-slug
 
 Replace `your-product-slug` with the desired product's slug.
 
-### Example URL
+### Example URL with https://www.unrealengine.com/marketplace/en-US/product/content-examples
 
-If the slug for a product is `example-product-slug`, the URL would be:
+If the slug for a product is `content-examples`, the URL would be:
 
 ```
-https://rilith.github.io/EpicGamesLauncherRedirect/?slug=example-product-slug
+https://rilith.github.io/EpicGamesLauncherRedirect/?slug=content-examples
 ```
 
 When users visit this URL, they will be redirected to the specified product page in the Epic Games Launcher.
